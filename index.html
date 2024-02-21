@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script>
+        const arr = [
+            {
+                "name": "Hoyt Roy",
+                "date": "Oct 20, 2023",
+                "time": "11:20 AM"
+            },
+            {
+                "name": "Bruno Deleon",
+                "date": "Feb 8, 2025",
+                "time": "3:43 PM"
+            },
+            {
+                "name": "Silas Madden",
+                "date": "Nov 14, 2023",
+                "time": "4:03 AM"
+            },
+            {
+                "name": "Brianna Whitaker",
+                "date": "Sep 26, 2023",
+                "time": "9:21 PM"
+            },
+            {
+                "name": "Reece Decker",
+                "date": "Mar 16, 2024",
+                "time": "12:39 AM"
+            }
+        ]
+
+        let onSite = document.getElementById("container");
+        onSite.innerHTML = JSON.stringify(arr)
+    </script>
+
+</body>
+
+</html>
